@@ -1,28 +1,53 @@
-package com.ibaseit.studentdetailsinlist;
+package src.com.ibaseit.studentdetailsinlist;
+
+import java.util.Scanner;
 
 public class MainClass {
+
 	public static void main(String[] args) {
+
 		ListOfStudents obj = new ListOfStudents();
+		Scanner sc = new Scanner(System.in);
 
-		obj.add(new StudentDetails("azure", 1, "pass"));
+		System.out.println("enter 1 for add operation");
+		System.out.println("enter 2 for delete operation");
+		System.out.println("enter 3 for read operation");
+		int option = sc.nextInt();
 
-		System.out.println("working1");
+		if (option == 1) {
+			System.out.println("enter the student name");
+			String name = sc.next();
+			System.out.println("enter the student roll number");
+			int roll = sc.nextInt();
+			System.out.println("enter the student result");
+			String result = sc.next();
 
-		System.out.println("working2");
-		obj.add(new StudentDetails("cortex", 4, "pass"));
+			obj.add(new StudentDetails(name, roll, result));
+           System.out.println("working");
+          // MainClass.main(args);
+		}
 
-		System.out.println("working3");
-		obj.add(new StudentDetails("zubair", 2, "pass"));
+		else if (option == 2) {
+			System.out.println("enter the student roll number");
+			int index = sc.nextInt();
+			index = index - 1;
+			obj.remove(index);
+			//MainClass.main(args);
+		}
 
-		System.out.println("working4");
-		// obj.remove(0);
-		obj.update(new StudentDetails("danni", 8, "pass"));
+		else if (option == 3) {
+			System.out.println("enter the student roll number");
+			int index = sc.nextInt();
+			//index = index - 1;
+			obj.getStudent(index);
+			//MainClass.main(args);
+		}
 
-		System.out.println("working5");
-		obj.print();
-
-		obj.remove(88);
-		System.out.println("working 2");
+		
 	}
+	
+	
+	
+	
 
 }

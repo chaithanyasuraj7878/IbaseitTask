@@ -1,4 +1,4 @@
-package com.ibaseit.banlservicesusingset;
+package src.com.ibaseit.banlservicesusingset;
 
 public class BankDetails
 {

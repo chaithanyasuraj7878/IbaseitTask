@@ -1,4 +1,4 @@
-package com.ibaseit.banlservicesusingset;
+package src.com.ibaseit.banlservicesusingset;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -7,6 +7,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 import org.junit.jupiter.api.Test;
+
+import src.com.ibaseit.banlservicesusingset.AccountDetails;
 
 class BankAccountTest {
 
@@ -43,4 +45,5 @@ class BankAccountTest {
 
 	}
 
+	
 }

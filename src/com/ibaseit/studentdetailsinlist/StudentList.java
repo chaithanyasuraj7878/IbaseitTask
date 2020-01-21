@@ -1,4 +1,4 @@
-package com.ibaseit.studentdetailsinlist;
+package src.com.ibaseit.studentdetailsinlist;
 
 import static org.hamcrest.CoreMatchers.allOf;
 import static org.hamcrest.CoreMatchers.both;
@@ -40,7 +40,6 @@ class StudentList {
 		assertEquals(actual, hasItems("ram", 1, "fail"));
 
 	}
-	
 
 	@Test
 	public void testAssetThatExamples() {
@@ -77,5 +76,6 @@ class StudentList {
 		 */
 
 	}
+	
 
 }

@@ -1,4 +1,4 @@
-package com.ibaseit.studentdetailsinlist;
+package src.com.ibaseit.studentdetailsinlist;
 
 public class StudentDetails {
 
@@ -60,5 +60,6 @@ public class StudentDetails {
 	public void setResult(String result) {
 		this.result = result;
 	}
+	
 
 }

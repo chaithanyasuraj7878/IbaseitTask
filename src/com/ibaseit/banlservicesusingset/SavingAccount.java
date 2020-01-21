@@ -1,4 +1,4 @@
-package com.ibaseit.banlservicesusingset;
+package src.com.ibaseit.banlservicesusingset;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -43,11 +43,13 @@ public class SavingAccount {
 			}
 		}
 		System.out.println(store);
+		
 
 	}
 	
 	public void add()
 	{
+		System.out.println("enter the account number");
 		
 	}
 	

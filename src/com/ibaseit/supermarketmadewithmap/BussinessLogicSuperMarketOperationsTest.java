@@ -1,4 +1,4 @@
-package com.ibaseit.supermarketmadewithmap;
+package src.com.ibaseit.supermarketmadewithmap;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -41,7 +41,7 @@ class BussinessLogicSuperMarketOperationsTest {
 	public void testDeletProductPrice() {
 
 		String item = "juice";
-		double price = 25.0;
+		double price = 78.0;
 		Map<String, Double> actualProductPrice = operations.createproductPrice(item, price);
 
 		Map<String, Double> actualProductPrice2 = operations.deletProductPrice(item);
@@ -50,5 +50,8 @@ class BussinessLogicSuperMarketOperationsTest {
 
 		Assert.assertNotEquals(productPrice, actualProductPrice2);
 	}
+	
+	
+	
 
 }

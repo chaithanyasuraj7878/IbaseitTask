@@ -1,7 +1,5 @@
-package com.ibaseit.banlservicesusingset;
+package src.com.ibaseit.banlservicesusingset;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class AccountDetails {
 	private String accountnumber;

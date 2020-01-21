@@ -1,4 +1,4 @@
-package com.ibaseit.exception;
+package src.com.ibaseit.exception;
 
 public class Practise {
 	

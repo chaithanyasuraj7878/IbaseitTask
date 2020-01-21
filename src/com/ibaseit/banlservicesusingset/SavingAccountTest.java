@@ -1,6 +1,4 @@
-package com.ibaseit.banlservicesusingset;
-
-import static org.junit.jupiter.api.Assertions.*;
+package src.com.ibaseit.banlservicesusingset;
 
 import java.util.HashSet;
 import java.util.List;
@@ -15,7 +13,7 @@ class SavingAccountTest {
 	@Test
 	void testMain() {
 		
-		fail("Not yet implemented");
+	
 		
 		
 		Scanner scan = new Scanner(System.in);

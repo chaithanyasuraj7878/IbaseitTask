@@ -1,4 +1,4 @@
-package com.ibaseit.exception;
+package src.com.ibaseit.exception;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ public class UsingThrowsAndThrow {
 	}
 
 	public static void main(String args[]) {
-		try {
+	try {
 			UsingThrowsAndThrow obj = new UsingThrowsAndThrow();
 			obj.myMethod(78);
 		} catch (Exception ex) {

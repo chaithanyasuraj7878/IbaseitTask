@@ -1,4 +1,4 @@
-package com.ibaseit.logging;
+package src.com.ibaseit.logging;
 
 import java.util.logging.LogManager;
 import java.util.logging.Logger;

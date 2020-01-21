@@ -1,4 +1,4 @@
-package com.ibaseit.exception;
+package src.com.ibaseit.exception;
 
 import java.util.Arrays;
 import java.util.List;
